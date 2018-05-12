@@ -14,7 +14,7 @@
     "coding",
     "dev"
   ],
-  "author": "Pulkit",
+  "author": "Pulkit Kashyap",
   "license": "",
   "devDependencies": {
     "gulp": "^3.9.1",
