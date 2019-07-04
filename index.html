@@ -16,6 +16,27 @@
 	window._vis_opt_lib ='http://local.wingifyinternal.com/jslib2.0/dist/va.unminified.js'
 	//window.VWO.trackLibPath = '//dev.visualwebsiteoptimizer.com/6.0/track_safari.js';
     </script>
+<!-- Start Visual Website Optimizer Synchronous Code -->
+	<script type='text/javascript'>
+	if (location.search.search(/sync/i) !== -1 && location.search.search(/osc/i) === -1) {
+		var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+		document.write(unescape('%3Cs') + 'cript src="' + _vis_opt_protocol +
+		'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a='+(accountId || 1)+'&url='
+		+encodeURIComponent(document.URL)+'&random='+Math.random()+'" type="text/javascript">' + '<\/s' + 'cript>');
+	}
+	</script>
+	<!-- End Visual Website Optimizer Synchronous Code -->
+	<script type='text/javascript'>
+		var serverUrl = '//d5phz18u4wuww.cloudfront.net';
+		if(typeof(_vis_opt_settings_loaded) == "boolean") {
+							if (useExistingjQuery) {
+									document.write('<s' + 'cript src="' +  serverUrl + '/vis_opt_no_jquery.js" type="text/javascript">' + '<\/s' + 'cript>'); 
+							} else {
+									document.write('<s' + 'cript src="' +  serverUrl + '/vis_opt.js" type="text/javascript">' + '<\/s' + 'cript>'); 
+							}
+		}
+	// if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above
+	</script>
 </head>
 
 <body>
