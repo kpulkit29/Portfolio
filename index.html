@@ -30,27 +30,9 @@ f=false,d=document,code={use_existing_jquery:function(){return use_existing_jque
 window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
 </script>
 <!-- End VWO Async Smartcode -->
-<!-- Start VWO Smartcode (Synchronous) -->
-<script type='text/javascript'>
-var _vis_opt_account_id = 423814;
-var _vis_opt_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://');
-document.write('<s' + 'cript src="' + _vis_opt_protocol +
-'dev.visualwebsiteoptimizer.com/deploy/js_visitor_settings.php?v=1&a='+_vis_opt_account_id+'&url='
-+encodeURIComponent(document.URL)+'&random='+Math.random()+'" type="text/javascript">' + '<\/s' + 'cript>');
-</script>
-
-<script type='text/javascript'>
-if(typeof(_vis_opt_settings_loaded) == "boolean") { document.write('<s' + 'cript src="' + _vis_opt_protocol +
-'d5phz18u4wuww.cloudfront.net/vis_opt.js" type="text/javascript">' + '<\/s' + 'cript>'); }
-/* if your site already has jQuery 1.4.2, replace vis_opt.js with vis_opt_no_jquery.js above */
-</script>
-
-<script type='text/javascript'>
-if(typeof(_vis_opt_settings_loaded) == "boolean" && typeof(_vis_opt_top_initialize) == "function") {
-        _vis_opt_top_initialize(); vwo_$(document).ready(function() { _vis_opt_bottom_initialize(); });
-}
-</script>
-<!-- End VWO Smartcode (Synchronous) -->
+<!-- Start VWO Smartcode -->
+<script src="https://dev.visualwebsiteoptimizer.com/lib/423814.js"></script>
+<!-- End VWO Smartcode -->
 	<script>
 		setTimeout(function(){
 		window.splitPollingVariable =1;
